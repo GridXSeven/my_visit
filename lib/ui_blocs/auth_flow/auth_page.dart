@@ -14,7 +14,7 @@ class AuthPage extends StatelessWidget {
   TextEditingController email = TextEditingController();
   TextEditingController pass = TextEditingController();
   ValueNotifier<bool> register = ValueNotifier<bool>(true);
-
+//fddfvd
   @override
   Widget build(BuildContext context) {
     return CustomScaffold(
