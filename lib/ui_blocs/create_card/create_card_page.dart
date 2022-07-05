@@ -53,9 +53,7 @@ class CreateCardPage extends StatelessWidget {
                 height: 1,
                 thickness: 1,
               ),
-              SizedBox(
-                height: 16,
-              ),
+              SizedBox(height: 16),
               CustomButton(
                 text: "preview",
                 onTap: () async {
