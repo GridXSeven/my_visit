@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585517566318",
+    "project_id": "my-cards-e6faa",
+    "storage_bucket": "my-cards-e6faa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585517566318:android:07dc3d8c570d18cc1e197f",
+        "android_client_info": {
+          "package_name": "com.pineapple.my_cards.visits_prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585517566318-qvokke1b5vf27mrokhva9s52cr4aeb78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhjnDk5kiVt85V2GLQXxnN2dBJopwlHXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585517566318-qvokke1b5vf27mrokhva9s52cr4aeb78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
