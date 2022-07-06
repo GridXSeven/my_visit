@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
+import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
 import 'package:syncfusion_flutter_pdf/pdf.dart';
 import 'package:visits_prod/brains/data_layer/firebase_repo.dart';
@@ -67,9 +68,24 @@ class Template {
     return file;
   }
 
+  Future<File> getImageFileFromNetwork(String url, String fileName) async {
+    final byteData = await http.get(
+      Uri.parse(url),
+    );
+
+    final file = File('${(await getTemporaryDirectory()).path}/$fileName.pdf');
+    await file.writeAsBytes(byteData.bodyBytes);
+
+    return file;
+  }
+
   Future<File> updatePreview() async {
-    final file = File(
+    var file = File(
         '${(await getTemporaryDirectory()).path}/${url.substring(url.lastIndexOf("/") + 1)}.pdf');
+    if (!(await file.exists())) {
+      file = await getImageFileFromNetwork(
+          url, url.substring(url.lastIndexOf("/") + 1));
+    }
     final PdfDocument document =
         PdfDocument(inputBytes: await file.readAsBytes());
 
