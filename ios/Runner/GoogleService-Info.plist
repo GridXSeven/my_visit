@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>585517566318-mg9kmim3tpv58i8eqooc77cc8t5q7dk5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.585517566318-mg9kmim3tpv58i8eqooc77cc8t5q7dk5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCzSN-aUpdHJIg7C5SBt8BqjaknQHzI7iY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>585517566318</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pineapple.mycards.visitsProd</string>
+	<key>PROJECT_ID</key>
+	<string>my-cards-e6faa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-cards-e6faa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:585517566318:ios:c4335f3568b2d3d91e197f</string>
+</dict>
+</plist>

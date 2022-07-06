@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +15,9 @@ import 'package:visits_prod/ui_utils/theme_data.dart';
 void main() async {
   Provider.debugCheckInvalidValueType = null;
   WidgetsFlutterBinding.ensureInitialized();
-  if (!kIsWeb) {
+  if (Platform.isIOS) {
+    await Firebase.initializeApp();
+  } else if (!kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
         apiKey: 'AIzaSyAhjnDk5kiVt85V2GLQXxnN2dBJopwlHXw',

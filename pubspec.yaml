@@ -39,12 +39,12 @@ dependencies:
   path_provider: ^2.0.8
   http: ^0.13.4
   file_picker: ^4.6.0
-  firebase_core: ^1.13.1
-  firebase_auth: ^3.3.9
-  firebase_database: ^9.0.8
-  firebase_storage: ^10.2.9
+  firebase_core: ^1.19.1
+  firebase_auth: ^3.4.1
+  firebase_database: ^9.0.18
+  firebase_storage: ^10.3.1
   fluttertoast: ^8.0.9
-  cloud_firestore: 3.1.10
+  cloud_firestore: 3.2.1
 #  firebase_messaging: ^11.2.8
 #  firebase_remote_config: ^1.0.4
 
